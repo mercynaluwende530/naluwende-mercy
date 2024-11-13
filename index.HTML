@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+
+    
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #eb9dd1;
+            line-height: 1.6;
+        }
+
+        
+        header {
+            background-color: #2e1263;
+            color: #1e8f3a;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            margin-bottom: 0.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0d5f8f;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: rgb(20, 18, 18);
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            color: #4C2/
+        section {
+            padding: 60px 15%;
+            margin: 20px 0;
+            background-color: pink ;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #333;
+        }
+
+        section p {
+            text-align: center;
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input, textarea {
+            width: 80%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-size: 1em;
+        }
+
+        button {
+            padding: 12px 25px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #b31677;
+            color: rgb(30, 170, 17);
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1.1em;
+        }
+
+        
+        @media (max-width: 768px) {
+            section {
+                padding: 40px 5%;
+            }
+
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav a {
+                margin: 10px 0;
+                color: #45a049;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    
+    <header>
+
+        <h1>NALUWENDE MERCY</h1>
+        <p>Creative Web Developer & Designer</p>
+    </header>
+</div>
+    
+    <nav>
+        <a href="#about">ABOUT ME</a>
+        <a href="#history">HISTORY</a>
+        <a href="#gallery">GALLERY</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm NALUWENDE MERCY, a passionate web developer with a knack for creating user-friendly websites and applications.
+            With a background in design and development, I specialize in building visually appealing and functional websites.
+            I love to experiment with new technologies and am always learning to improve my skills.
+            Am ever available incase of any consultation contact me on the number below or email.
+        </p>
+        <p>
+            my services are ever genuine,,,get ready to enjoy the best with me MERCY  your No1 web designer.
+        </p>
+    </section>
+
+    
+    <section id="history">
+        <h2>My History</h2>
+        <p>
+            I started my career in web development over 5 years ago. I initially worked as a graphic designer but soon realized 
+            that my true passion was in creating dynamic and interactive web experiences. Over the years, I have worked on various 
+            projects, from small businesses to large enterprise applications, helping bring ideas to life through code and creativity.
+        </p>
+    </section>
+
+
+
+
+
+    
+    <section id="gallery">
+        <h2>Portfolio Gallery</h2>
+        <div class="gallery">
+            
+            <img src="c:\Users\HP\Desktop\download.jpg" alt="Project 1">
+            <img src="c:\Users\HP\Desktop\download.jpg" alt="Project 2">
+            <img src="https://via.placeholder.com/300" alt="Project 3">
+            <img src="https://via.placeholder.com/300" alt="Project 4">
+        </div>
+    </section>
+
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to send me a message below!</p>
+        <form action="#" method="post">
+            <input type="text" placeholder="NALUWENDE MERCY" required>
+            <input type="email" placeholder="mercynaluwende7@gmail.com" required>
+            <textarea placeholder="Your Message" rows="10" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+   
+    
+
+    <footer>
+        <p>&copy; 2024 NALUWENDE mercynaluwende7. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+</body>
+</html>
